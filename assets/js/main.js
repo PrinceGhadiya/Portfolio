@@ -1,4 +1,9 @@
 
+/**
+ * Updated main.js
+ */
+
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -50,9 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
     navmenu.addEventListener('click', () => {
       if (document.querySelector('.mobile-nav-active')) {
         mobileNavToogle();
+      } else {
+        mobileNavToogle();
       }
     });
-
   });
 
   /**
